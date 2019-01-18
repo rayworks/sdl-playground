@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "tiny_xpm.h": "c",
+        "*.xpm": "c",
+        "sdl.h": "c",
+        "log.h": "c",
+        "sdl_log.h": "c"
+    }
+}
