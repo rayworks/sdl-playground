@@ -26,8 +26,6 @@
 #include <emscripten/emscripten.h>
 #endif
 
-//#include "SDL2/SDL.h"
-
 #define MOOSEPIC_W 64
 #define MOOSEPIC_H 88
 
