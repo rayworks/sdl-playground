@@ -1,3 +1,4 @@
 #! /bin/sh
-gcc -o player simpleffplayer.c -lavformat -lavcodec -lsdl2 -lswscale -lz \
-  $(pkg-config --cflags --libs libavformat libavcodec)
+gcc -o player \
+  $(pkg-config --cflags --libs libavformat libavcodec libswresample libswscale libavutil sdl2) \
+  simpleffplayer.c -lz
